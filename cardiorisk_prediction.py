@@ -1,19 +1,7 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║        NeuroBee — Heart Disease Prediction AI                ║
-║        Flask Web App  →  opens at http://localhost:5000      ║
-║                                                              ║
-║  pip install flask scikit-learn numpy requests               ║
-║                                                              ║
-║  1. Set MODEL_PATH below to your .pkl file                   ║
-║  2. python neurobee_web.py                                   ║
-║  3. Open  http://localhost:5000  in your browser             ║
-╚══════════════════════════════════════════════════════════════╝
-"""
 
 # ─── CHANGE THIS TO YOUR MODEL .pkl PATH ───────────────────────────────────
-MODEL_PATH  = r"C:\Users\penum\PycharmProjects\PythonProject\heart_model.pkl"  # <── PUT YOUR TRAINED MODEL PATH HERE
-SCALER_PATH = r"C:\Users\penum\PycharmProjects\PythonProject\heart_scaler.pkl" # <── PUT YOUR SCALER PATH HERE (or "" to skip)
+MODEL_PATH  = r""  # <── PUT YOUR TRAINED MODEL PATH HERE
+SCALER_PATH = r"" # <── PUT YOUR SCALER PATH HERE (or "" to skip)
 # ───────────────────────────────────────────────────────────────────────────
 
 import os, math, threading, webbrowser, pickle, json
@@ -21,9 +9,9 @@ import numpy as np
 import requests as req
 from flask import Flask, request, jsonify, render_template_string
 
-OPENROUTER_KEY = "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"
+OPENROUTER_KEY = "Add your api key"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-BOT_MODEL      = "anthropic/claude-3-haiku"
+BOT_MODEL      = "Add your bot model"
 
 # ── Load model ──────────────────────────────────────────────────────────────
 MODEL  = None
