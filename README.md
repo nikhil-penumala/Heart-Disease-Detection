@@ -55,30 +55,37 @@ The system analyzes patient clinical data, estimates the probability of heart di
 
 ---
 
-# 📂 Dataset Information
+## 📂 Dataset Information
 
-The model is trained using the **Heart Disease Dataset (heart.csv)**.
+The model is trained using the **Heart Disease Dataset (heart.csv)**, which contains patient cardiovascular health indicators used for heart disease prediction.
 
-The dataset contains clinical and cardiovascular health indicators used for heart disease prediction.
+### Dataset Features
 
-## Dataset Features
+| Feature | Description |
+|----------|------------|
+| Age | Age of the patient |
+| Sex | Gender of the patient (Male/Female) |
+| ChestPainType | Type of chest pain experienced |
+| RestingBP | Resting blood pressure (mmHg) |
+| Cholesterol | Serum cholesterol level (mg/dL) |
+| FastingBS | Fasting blood sugar (1 = High, 0 = Normal) |
+| RestingECG | Resting electrocardiogram results |
+| MaxHR | Maximum heart rate achieved |
+| ExerciseAngina | Exercise-induced angina (Y/N) |
+| Oldpeak | ST depression induced by exercise |
+| ST_Slope | Slope of the peak exercise ST segment |
+| HeartDisease | Target variable indicating heart disease presence |
 
-| Feature  | Description                          |
-| -------- | ------------------------------------ |
-| age      | Age of the patient                   |
-| sex      | Gender (1 = Male, 0 = Female)        |
-| cp       | Chest pain type                      |
-| trestbps | Resting blood pressure (mmHg)        |
-| chol     | Serum cholesterol (mg/dL)            |
-| fbs      | Fasting blood sugar                  |
-| restecg  | Resting electrocardiographic results |
-| thalach  | Maximum heart rate achieved          |
-| exang    | Exercise-induced angina              |
-| oldpeak  | ST depression induced by exercise    |
-| slope    | Slope of peak exercise ST segment    |
-| ca       | Number of major vessels              |
-| thal     | Thalassemia                          |
-| target   | Heart disease diagnosis              |
+### Target Variable
+
+| Value | Meaning |
+|---------|----------|
+| 0 | No Heart Disease |
+| 1 | Heart Disease Present |
+
+Dataset File:
+
+heart.csv
 
 ## Target Variable
 
