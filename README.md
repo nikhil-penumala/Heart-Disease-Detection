@@ -87,19 +87,6 @@ Dataset File:
 
 heart.csv
 
-## Target Variable
-
-| Value | Meaning               |
-| ----- | --------------------- |
-| 0     | No Heart Disease      |
-| 1     | Heart Disease Present |
-
-Dataset File:
-
-```text
-heart.csv
-```
-
 ---
 
 # 🏗️ System Architecture
