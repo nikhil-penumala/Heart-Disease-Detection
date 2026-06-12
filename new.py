@@ -1,8 +1,4 @@
-"""
-NeuroBee Heart Disease Detection - Model Training Script
-Dataset: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
-Download the CSV and provide the path below.
-"""
+
 
 import pandas as pd
 import numpy as np
