@@ -143,31 +143,7 @@ Personalized Health Guidance
 
 ---
 
-# 📁 Project Structure
 
-```text
-NeuroBee/
-│
-├── neurobee_web.py
-├── heart.csv
-├── heart_model.pkl
-├── heart_scaler.pkl
-├── README.md
-│
-└── assets/
-```
-
----
-
-# ⚙️ Installation
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/NeuroBee.git
-
-cd NeuroBee
-```
 
 ## Install Dependencies
 
